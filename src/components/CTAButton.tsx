@@ -17,7 +17,10 @@ export function CTAButton({ text = 'Initiate Blueprint', variant = 'primary' }: 
   };
 
   return (
+
+    
     <div className="flex justify-center py-16">
+      
       <motion.button
         onClick={handleClick}
         whileHover={{ scale: 1.05 }}

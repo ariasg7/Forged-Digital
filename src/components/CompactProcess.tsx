@@ -43,6 +43,7 @@ const steps = [
 export function CompactProcess() {
   return (
     <section id="process" className="relative py-32 px-6">
+     
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <motion.div

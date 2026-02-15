@@ -2,14 +2,31 @@
 
 import { motion } from "framer-motion";
 import { X } from "lucide-react";
-import { CTAButton } from "../components/CTAButton";
+import { CTAButton } from "./CTAButton";
 
 export function AntiTemplateSection() {
   const competitors = ['Wix', 'GoDaddy', 'Squarespace'];
 
   return (
-    <section className="relative py-32 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section className="relative py-32 px-6 overflow-hidden">
+      {/* Background Grid Pattern */}
+      <div 
+        className="absolute inset-0 opacity-10"
+        style={{
+          backgroundImage: `linear-gradient(#00D2FF 1px, transparent 1px), linear-gradient(90deg, #00D2FF 1px, transparent 1px)`,
+          backgroundSize: '50px 50px'
+        }}
+      />
+
+      {/* Gradient Glow */}
+      <div 
+        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-3xl h-[500px] opacity-10 blur-[100px] pointer-events-none"
+        style={{
+          background: 'radial-gradient(ellipse, rgba(0, 210, 255, 0.4) 0%, transparent 70%)'
+        }}
+      />
+
+      <div className="max-w-6xl mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* Left: Headline & Copy */}
           <motion.div

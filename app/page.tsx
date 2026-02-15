@@ -2,6 +2,7 @@ import { Navigation } from "../src/components/Navigation";
 import { HeroParallax } from "../src/components/HeroParallax";
 import { AntiTemplateSection } from "../src/components/AntiTemplateSection"
 import { CTAButton } from "../src/components/CTAButton"
+import {Services} from "../src/components/Services"
 import { TrustBar } from "../src/components/TrustBar"
 import { AboutUs } from "../src/components/AboutUs"
 import { CompactProcess } from "../src/components/CompactProcess";
@@ -18,22 +19,24 @@ export default function Home() {
       <Navigation />
       <section id = "hero"><HeroParallax /></section>
       <section className="bg-black">
+        
+      <section id = "aboutus" className="scroll-mt-24"><AboutUs /></section>
       <section id = "antitemplate" className="scroll-mt-24"><AntiTemplateSection /></section>
       
       <CTAButton text="Initate Blueprint" variant="secondary" />
-      <TrustBar />
-      <section id = "aboutus" className="scroll-mt-24"><AboutUs /></section>
+      {/*<TrustBar />*/}
+      <Services/>
       
       
-      <CTAButton text="Initate Blueprint" variant="primary" />
+      <CTAButton text="Initiate Blueprint" variant="primary" />
       <CompactProcess />
-      <CTAButton text="Initate Blueprint" variant="secondary" />
+      <CTAButton text="Initiate Blueprint" variant="secondary" />
       <ToolCarousel />
       <IndustryRibbon />
       <BentoPortfolio />
-      <CTAButton text="Initate Blueprint" variant="primary" />
+      <CTAButton text="Initiate Blueprint" variant="primary" />
       <section id = "testimonials" className="scroll-mt-24">< Testimonials /></section>
-      <CTAButton text="Initate Blueprint" variant="secondary" />
+      <CTAButton text="Initiate Blueprint" variant="secondary" />
       <section id = "form" className="scroll-mt-24">< MinimalistContact /></section>
       < MinimalistFooter />
       </section>

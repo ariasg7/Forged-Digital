@@ -42,7 +42,8 @@ export function AboutUs() {
               letterSpacing: '-0.02em'
             }}
           >
-            Engineering vs. Decoration
+            {/*Engineering vs. Decoration*/}
+            About Us
           </h2>
           <p 
             className="text-[#888888] max-w-3xl mx-auto"
