@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import logoWordmark from "../assets/Forged_Digital_Wordmark.png";
+import logoWordmark from "../public/img/Forged_Digital_Wordmark.png";
 
 export function Navigation() {
   const [scrolled, setScrolled] = useState(false);

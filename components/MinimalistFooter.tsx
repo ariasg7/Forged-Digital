@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import logoFlame from "../assets/Forged_Digital_Logo.png";
+import logoFlame from "../public/img/Forged_Digital_Logo.png";
 import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
 
 export function MinimalistFooter() {

@@ -3,7 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
-import logoFlame from "../assets/Forged_Digital_Logo.png";
+import logoFlame from "../public/img/Forged_Digital_Logo.png";
 
 export function HeroParallax() {
   const ref = useRef<HTMLDivElement>(null);

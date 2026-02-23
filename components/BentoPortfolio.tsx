@@ -7,46 +7,52 @@ import { CTAButton } from "../components/CTAButton";
 
 const portfolioItems = [
   {
-    title: 'E-Commerce Platform',
+    title: 'Marketing Agency',
     category: 'Web Application',
-    image: 'https://images.unsplash.com/photo-1590965918603-0dce981d13b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBtYWNib29rJTIwbW9ja3VwJTIwZGFya3xlbnwxfHx8fDE3Njk2MTIxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: '/img/Novora.webp',
     size: 'large',
-    kpi: 'Performance: +45% Speed | Architecture: Next.js/SSR'
+    kpi: 'Performance: +95% | SEO: +100% | Architecture: HTML/CSS Tailwind/JS',
+    link: 'https://www.novoramgt.com' // Unique link here
   },
   {
     title: 'Mobile Banking App',
     category: 'iOS & Android',
     image: 'https://images.unsplash.com/photo-1691256676376-357c3aa66c89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwbW9ja3VwJTIwc2NyZWVufGVufDF8fHx8MTc2OTYxMjExMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     size: 'small',
-    kpi: 'Performance: +62% Conversion | Architecture: React Native'
+    kpi: 'Performance: +62% Conversion | Architecture: React Native',
+    link: '' // Unique link here
   },
   {
     title: 'SaaS Dashboard',
     category: 'Web Application',
     image: 'https://images.unsplash.com/photo-1643610994100-9d200244b53e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWJzaXRlJTIwbW9ja3VwJTIwZGV2aWNlfGVufDF8fHx8MTc2OTYxMjEwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     size: 'small',
-    kpi: 'Performance: +38% Speed | Architecture: React/Vite'
+    kpi: 'Performance: +38% Speed | Architecture: React/Vite',
+    link: '' // Unique link here
   },
   {
     title: 'Content Management',
     category: 'Admin Panel',
     image: 'https://images.unsplash.com/photo-1722316805351-d5a56965f926?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YWJsZXQlMjBpcGFkJTIwbW9ja3VwfGVufDF8fHx8MTc2OTYxMjExMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     size: 'small',
-    kpi: 'Performance: +51% Speed | Architecture: Next.js/API'
+    kpi: 'Performance: +51% Speed | Architecture: Next.js/API',
+    link: '' // Unique link here
   },
   {
     title: 'Portfolio Website',
     category: 'Creative Studio',
     image: 'https://images.unsplash.com/photo-1590965918603-0dce981d13b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBtYWNib29rJTIwbW9ja3VwJTIwZGFya3xlbnwxfHx8fDE3Njk2MTIxMDl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     size: 'large',
-    kpi: 'Performance: +73% Speed | Architecture: Astro/SSG'
+    kpi: 'Performance: +73% Speed | Architecture: Astro/SSG',
+    link: '' // Unique link here
   },
   {
     title: 'Fintech Platform',
     category: 'Web Application',
     image: 'https://images.unsplash.com/photo-1643610994100-9d200244b53e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWJzaXRlJTIwbW9ja3VwJTIwZGV2aWNlfGVufDF8fHx8MTc2OTYxMjEwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     size: 'small',
-    kpi: 'Performance: +55% Speed | Architecture: TypeScript/Node'
+    kpi: 'Performance: +55% Speed | Architecture: TypeScript/Node',
+    link: '' // Unique link here
   }
 ];
 
@@ -159,15 +165,16 @@ export function BentoPortfolio() {
 
                 {/* View Case Study Button */}
                 <button
-                  className="mt-4 px-6 py-2 border border-[#00D2FF] text-[#00D2FF] hover:bg-[#00D2FF] hover:text-black transition-all text-xs uppercase tracking-wider"
-                  style={{
-                    fontFamily: "'Inter Tight', sans-serif",
-                    fontWeight: 600,
-                    letterSpacing: '0.1em'
-                  }}
-                >
-                  View Technical Specs
-                </button>
+                    onClick={() => window.open(item.link, "_blank", "noopener,noreferrer")}
+                    className="mt-4 px-6 py-2 border border-[#00D2FF] text-[#00D2FF] hover:bg-[#00D2FF] hover:text-black transition-all text-xs uppercase tracking-wider"
+                    style={{
+                      fontFamily: "'Inter Tight', sans-serif",
+                      fontWeight: 600,
+                      letterSpacing: '0.1em'
+                    }}
+                  >
+                    View Project
+              </button>
               </div>
 
               {/* Blue Glow on Hover */}

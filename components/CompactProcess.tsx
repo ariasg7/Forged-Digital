@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { CTAButton } from "../components/CTAButton";
 import Image from "next/image";
-import logoFlame from "../assets/Forged_Digital_Logo.png";
+import logoFlame from "../public/img/Forged_Digital_Logo.png";
 
 const steps = [
   {

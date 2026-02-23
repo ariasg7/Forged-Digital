@@ -1,17 +1,17 @@
-import { Navigation } from "../src/components/Navigation";
-import { HeroParallax } from "../src/components/HeroParallax";
-import { AntiTemplateSection } from "../src/components/AntiTemplateSection"
-import { CTAButton } from "../src/components/CTAButton"
-import {Services} from "../src/components/Services"
-import { TrustBar } from "../src/components/TrustBar"
-import { AboutUs } from "../src/components/AboutUs"
-import { CompactProcess } from "../src/components/CompactProcess";
-import { ToolCarousel } from "../src/components/ToolCarousel";
-import { IndustryRibbon } from "../src/components/IndustryRibbon";
-import { BentoPortfolio } from "../src/components/BentoPortfolio";
-import { Testimonials } from "../src/components/Testimonials";
-import { MinimalistContact } from "../src/components/MinimalistContact";
-import { MinimalistFooter } from "../src/components/MinimalistFooter";
+import { Navigation } from "../components/Navigation";
+import { HeroParallax } from "../components/HeroParallax";
+import { AntiTemplateSection } from "../components/AntiTemplateSection"
+import { CTAButton } from "../components/CTAButton"
+import {Services} from "../components/Services"
+import { TrustBar } from "../components/TrustBar"
+import { AboutUs } from "../components/AboutUs"
+import { CompactProcess } from "../components/CompactProcess";
+import { ToolCarousel } from "../components/ToolCarousel";
+import { IndustryRibbon } from "../components/IndustryRibbon";
+import { BentoPortfolio } from "../components/BentoPortfolio";
+import { Testimonials } from "../components/Testimonials";
+import { MinimalistContact } from "../components/MinimalistContact";
+import { MinimalistFooter } from "../components/MinimalistFooter";
 
 export default function Home() {
   return (
