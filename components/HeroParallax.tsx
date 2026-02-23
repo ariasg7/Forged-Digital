@@ -70,7 +70,6 @@ export function HeroParallax() {
                 width={280}
                 height={280}
                 className="mx-auto"
-                priority
             />
         </motion.div>
 
