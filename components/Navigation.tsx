@@ -20,7 +20,7 @@ export function Navigation() {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
 
-  const links = ['AntiTemplate', 'About Us', 'Process', 'Tools', 'Portfolio', 'Testimonials'];
+  const links = ['About Us', 'Solution', 'Services', 'Process', 'Tools', 'Portfolio', 'Testimonials'];
   const normalizeId = (link: string) => link.toLowerCase().replace(/\s+/g, '');
 
   return (

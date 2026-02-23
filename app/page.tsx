@@ -21,11 +21,12 @@ export default function Home() {
       <section className="bg-black">
         
       <section id = "aboutus" className="scroll-mt-24"><AboutUs /></section>
-      <section id = "antitemplate" className="scroll-mt-24"><AntiTemplateSection /></section>
+      <section id = "solution" className="scroll-mt-24"><AntiTemplateSection /></section>
       
       <CTAButton text="Initate Blueprint" variant="secondary" />
       {/*<TrustBar />*/}
-      <Services/>
+      <section id = "services" className="scroll-mt-24"><Services/></section>
+      
       
       
       <CTAButton text="Initiate Blueprint" variant="primary" />
