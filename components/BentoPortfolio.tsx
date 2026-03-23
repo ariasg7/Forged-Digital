@@ -15,12 +15,12 @@ const portfolioItems = [
     link: 'https://www.novoramgt.com' // Unique link here
   },
   {
-    title: 'Mobile Banking App',
-    category: 'iOS & Android',
-    image: 'https://images.unsplash.com/photo-1691256676376-357c3aa66c89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwbW9ja3VwJTIwc2NyZWVufGVufDF8fHx8MTc2OTYxMjExMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    title: 'Beauty Esthetics',
+    category: 'Web Application',
+    image: '/img/Dolce Far Niente.webp',
     size: 'small',
-    kpi: 'Performance: +62% Conversion | Architecture: React Native',
-    link: '' // Unique link here
+    kpi: 'Performance: +94% | SEO +100% | Architecture: NextJS/CSS Tailwind/JS',
+    link: 'https://www.dolcefarnienteesthetics.com'
   },
   {
     title: 'SaaS Dashboard',
