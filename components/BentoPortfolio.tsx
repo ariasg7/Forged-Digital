@@ -7,28 +7,28 @@ import { CTAButton } from "../components/CTAButton";
 
 const portfolioItems = [
   {
-    title: 'Marketing Agency',
-    category: 'Web Application',
-    image: '/img/Novora.webp',
-    size: 'large',
-    kpi: 'Performance: +95% | SEO: +100% | Architecture: HTML/CSS Tailwind/JS',
-    link: 'https://www.novoramgt.com' // Unique link here
-  },
-  {
     title: 'Beauty Esthetics',
     category: 'Web Application',
     image: '/img/Dolce Far Niente.webp',
-    size: 'small',
+    size: 'large',
     kpi: 'Performance: +94% | SEO +100% | Architecture: NextJS/CSS Tailwind/JS',
     link: 'https://www.dolcefarnienteesthetics.com'
   },
   {
-    title: 'SaaS Dashboard',
+    title: 'Marketing Agency',
     category: 'Web Application',
-    image: 'https://images.unsplash.com/photo-1643610994100-9d200244b53e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWJzaXRlJTIwbW9ja3VwJTIwZGV2aWNlfGVufDF8fHx8MTc2OTYxMjEwOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: '/img/Novora.webp',
     size: 'small',
-    kpi: 'Performance: +38% Speed | Architecture: React/Vite',
-    link: '' // Unique link here
+    kpi: 'Performance: +95% | SEO: +100% | Architecture: HTML/CSS Tailwind/JS',
+    link: 'https://www.novoramgt.com' // Unique link here
+  },
+  {
+    title: 'Lottery',
+    category: 'Web Application',
+    image: '/img/ApuestasRogerLogo.png',
+    size: 'small',
+    kpi: 'Performance: +150% Speed | Architecture: HTML/CSS Tailwind',
+    link: 'https://www.apuestasroger.com'
   },
   {
     title: 'Content Management',
