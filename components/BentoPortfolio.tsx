@@ -35,7 +35,7 @@ const portfolioItems = [
     category: 'Web Application',
     image: '/img/Lux_Elite_Cleaning.png',
     size: 'small',
-    kpi: 'Performance: +51% Speed | Architecture: Next.js/API',
+    kpi: 'Performance: +98% Speed | Architecture: Next.js/API',
     link: 'https://lux-elite-cleaning.vercel.app'
   },
   {
