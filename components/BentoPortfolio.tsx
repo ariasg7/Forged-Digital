@@ -31,12 +31,12 @@ const portfolioItems = [
     link: 'https://www.apuestasroger.com'
   },
   {
-    title: 'Content Management',
-    category: 'Admin Panel',
-    image: 'https://images.unsplash.com/photo-1722316805351-d5a56965f926?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YWJsZXQlMjBpcGFkJTIwbW9ja3VwfGVufDF8fHx8MTc2OTYxMjExMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    title: 'Cleaning Service',
+    category: 'Web Application',
+    image: '/img/Lux_Elite_Cleaning.png',
     size: 'small',
     kpi: 'Performance: +51% Speed | Architecture: Next.js/API',
-    link: '' // Unique link here
+    link: 'https://lux-elite-cleaning.vercel.app'
   },
   {
     title: 'Portfolio Website',

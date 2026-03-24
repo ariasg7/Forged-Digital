@@ -91,7 +91,7 @@ export function HeroParallax() {
             backgroundClip: 'text'
           }}
         >
-          Digital architecture.<br />
+          Custom Website.<br />
           Built from scratch.
         </motion.h1>
 
